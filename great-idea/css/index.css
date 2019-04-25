@@ -214,10 +214,42 @@ background: white;
 }
 
 nav a:hover,  p a:hover{
-/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   animation-name: NavGradient;
   animation-duration: .1s;
   background-color: white;
   border: 2px solid black;
   padding: 4px;
+}
+
+#WhoWeAre {
+  background-image: url("https://c.wallhere.com/photos/c1/e9/minimalism_lightbulb-211291.jpg!d");
+  height: 400px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.SingleContentClass {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.teamMembers {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 90%;
+  height: 300px;
+  border: 1px solid grey;
+  background: lightgray;
+  text-align: center;
 }
