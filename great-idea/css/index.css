@@ -73,9 +73,29 @@ h1, h2, h3, h4, h5 {
   background: rgba(255, 255, 255, .8);
 }
 
+
 .navBarTop {
   margin: 36px 25%;
   width: 874px;
+}
+
+.services-header-img {
+  width: 874px;
+}
+
+#navbar {
+  background-color: rgba(255, 255, 255, .5); /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  width: 874px;
+  height: 45px;
+  top: -10px;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.navAlign {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 /* Image credit; https://pngtree.com/freebackground/iron-wall-seamless-texture-background-pattern-shading-website-banner_838273.html */
@@ -180,4 +200,23 @@ background: white;
   ul {
 	list-style-type: square;
 	margin: 20px;
+}
+
+/* Experimental Stretch Goal stuff */
+
+@keyframes NavGradient {
+  from { background-color: rgba(255, 255, 255, .5);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1px;}
+  to { background-color:  rgba(255, 255, 255, 1);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 4px;}
+}
+
+nav a:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  animation-name: NavGradient;
+  animation-duration: .1s;
+  background-color: white;
+  border: 2px solid black;
 }
