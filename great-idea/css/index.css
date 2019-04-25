@@ -65,9 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* Your code starts here! */
-body {
+/* body {
   background-image: url(https://i.imgur.com/Nm4HJyl.jpg)
-}
+} */
 
 .White {
   background: rgba(255, 255, 255, .8);
@@ -165,7 +165,7 @@ footer {
 	height: 250px;
 	border: 1px solid grey;
 	background: lightgray;
-  }
+}
 
 p > a {
 	border: 1px solid black;
@@ -180,4 +180,4 @@ background: white;
   ul {
 	list-style-type: square;
 	margin: 20px;
-  }
+}
